@@ -2,9 +2,13 @@ import sys
 import json
 
 import requests
+import requests_cache
 
 seed_file = sys.argv[1]
 output_file = sys.argv[2]
+
+cachefile = 'memgator_runs'
+requests_cache.install_cache(cachefile)
 
 timemap_stem = "http://localhost:1208/timemap/json/"
 
