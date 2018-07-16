@@ -1,0 +1,970 @@
+STARTING CURL FOR https://www.guideline.gov/summaries/summary/51257/acr-appropriateness-criteria--multiple-gestations
+* About to connect() to www.guideline.gov port 443 (#0)
+*   Trying 52.179.8.212... connected
+* Connected to www.guideline.gov (52.179.8.212) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+* Server certificate:
+* 	subject: CN=guideline.gov,OU=gov,O=Agency for Healthcare Research & Quality,L=Rockville,ST=Maryland,C=US
+* 	start date: Apr 12 00:00:00 2018 GMT
+* 	expire date: Jan 28 12:00:00 2019 GMT
+* 	common name: guideline.gov
+* 	issuer: CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US
+> GET /summaries/summary/51257/acr-appropriateness-criteria--multiple-gestations HTTP/1.1
+> User-Agent: curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2
+> Host: www.guideline.gov
+> Accept: */*
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:35 --:--:--     0< HTTP/1.1 500 Internal Server Error
+< Cache-Control: private
+< Content-Length: 276
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ASP.NET_SessionId=fdadn4ynw0mvrut1txtodmz2; path=/; HttpOnly
+< Set-Cookie: ASP.NET_SessionId=fdadn4ynw0mvrut1txtodmz2; path=/; HttpOnly
+< Set-Cookie: NGC=RecentlyViewedContent=51257,51257; expires=Wed, 15-Aug-2018 17:56:34 GMT; path=/; HttpOnly
+< X-AspNetMvc-Version: 4.0
+< X-AspNet-Version: 4.0.30319
+< Request-Context: appId=cid-v1:deb297e9-23b8-4f6e-b376-44111ebc4951
+< X-Powered-By: ASP.NET
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'none';
+< Set-Cookie: ARRAffinity=da7985c62a729352f6a2745ce1af0df3e542bf945932bc766fb35d7c851d7626;Path=/;HttpOnly;Domain=www.guideline.gov
+< Date: Mon, 16 Jul 2018 17:57:10 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< 
+{ [data not shown]
+138   276  138   276    0     0      7      0  0:00:39  0:00:35  0:00:04    57138   276  138   276    0     0      7      0  0:00:39  0:00:35  0:00:04    73* Connection #0 to host www.guideline.gov left intact
+
+* Closing connection #0
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <hgroup>
+        <h1>Error.</h1>
+        <h2>An error occurred while processing your request.</h2>
+    </hgroup>
+</body>
+</html>STARTING CURL FOR https://www.guideline.gov/summaries/summary/51258/acr-appropriateness-criteria--ovarian-cancer-screening
+* About to connect() to www.guideline.gov port 443 (#0)
+*   Trying 52.179.8.212... connected
+* Connected to www.guideline.gov (52.179.8.212) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+* Server certificate:
+* 	subject: CN=guideline.gov,OU=gov,O=Agency for Healthcare Research & Quality,L=Rockville,ST=Maryland,C=US
+* 	start date: Apr 12 00:00:00 2018 GMT
+* 	expire date: Jan 28 12:00:00 2019 GMT
+* 	common name: guideline.gov
+* 	issuer: CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US
+> GET /summaries/summary/51258/acr-appropriateness-criteria--ovarian-cancer-screening HTTP/1.1
+> User-Agent: curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2
+> Host: www.guideline.gov
+> Accept: */*
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:35 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:36 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:37 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:38 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:39 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:40 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:41 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:42 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:43 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:44 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:45 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:46 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:47 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:48 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:49 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:50 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:51 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:52 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:53 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:54 --:--:--     0< HTTP/1.1 500 Internal Server Error
+< Cache-Control: private
+< Content-Length: 276
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ASP.NET_SessionId=iynkyov0w0wkjgp0nhu2uo2i; path=/; HttpOnly
+< Set-Cookie: ASP.NET_SessionId=iynkyov0w0wkjgp0nhu2uo2i; path=/; HttpOnly
+< Set-Cookie: NGC=RecentlyViewedContent=51258,51258; expires=Wed, 15-Aug-2018 17:57:16 GMT; path=/; HttpOnly
+< X-AspNetMvc-Version: 4.0
+< X-AspNet-Version: 4.0.30319
+< Request-Context: appId=cid-v1:deb297e9-23b8-4f6e-b376-44111ebc4951
+< X-Powered-By: ASP.NET
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'none';
+< Set-Cookie: ARRAffinity=b16eb828fcc6b7a4a95321fcce037c392868c01a8f3f7eee1a24b336abc57d53;Path=/;HttpOnly;Domain=www.guideline.gov
+< Date: Mon, 16 Jul 2018 17:58:04 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< 
+{ [data not shown]
+138   276  138   276    0     0      5      0  0:00:55  0:00:54  0:00:01    65* Connection #0 to host www.guideline.gov left intact
+
+* Closing connection #0
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <hgroup>
+        <h1>Error.</h1>
+        <h2>An error occurred while processing your request.</h2>
+    </hgroup>
+</body>
+</html>STARTING CURL FOR https://www.guideline.gov/summaries/summary/51259/acr-appropriateness-criteria--chronic-ankle-pain
+* About to connect() to www.guideline.gov port 443 (#0)
+*   Trying 52.179.8.212... connected
+* Connected to www.guideline.gov (52.179.8.212) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+* Server certificate:
+* 	subject: CN=guideline.gov,OU=gov,O=Agency for Healthcare Research & Quality,L=Rockville,ST=Maryland,C=US
+* 	start date: Apr 12 00:00:00 2018 GMT
+* 	expire date: Jan 28 12:00:00 2019 GMT
+* 	common name: guideline.gov
+* 	issuer: CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US
+> GET /summaries/summary/51259/acr-appropriateness-criteria--chronic-ankle-pain HTTP/1.1
+> User-Agent: curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2
+> Host: www.guideline.gov
+> Accept: */*
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:35 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:36 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:37 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:38 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:39 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:40 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:41 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:42 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:43 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:44 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:45 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:46 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:47 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:48 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:49 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:50 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:51 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:52 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:53 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:54 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:55 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:56 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:57 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:58 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:59 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:00 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:13 --:--:--     0< HTTP/1.1 500 Internal Server Error
+< Cache-Control: private
+< Content-Length: 276
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ASP.NET_SessionId=5iontn1wo1pvqqp5aqfhgjul; path=/; HttpOnly
+< Set-Cookie: ASP.NET_SessionId=5iontn1wo1pvqqp5aqfhgjul; path=/; HttpOnly
+< Set-Cookie: NGC=RecentlyViewedContent=51259,51259; expires=Wed, 15-Aug-2018 17:58:22 GMT; path=/; HttpOnly
+< X-AspNetMvc-Version: 4.0
+< X-AspNet-Version: 4.0.30319
+< Request-Context: appId=cid-v1:deb297e9-23b8-4f6e-b376-44111ebc4951
+< X-Powered-By: ASP.NET
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'none';
+< Set-Cookie: ARRAffinity=b16eb828fcc6b7a4a95321fcce037c392868c01a8f3f7eee1a24b336abc57d53;Path=/;HttpOnly;Domain=www.guideline.gov
+< Date: Mon, 16 Jul 2018 17:59:18 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< 
+{ [data not shown]
+138   276  138   276    0     0      3      0  0:01:32  0:01:13  0:00:19    57138   276  138   276    0     0      3      0  0:01:32  0:01:13  0:00:19    72* Connection #0 to host www.guideline.gov left intact
+
+* Closing connection #0
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <hgroup>
+        <h1>Error.</h1>
+        <h2>An error occurred while processing your request.</h2>
+    </hgroup>
+</body>
+</html>STARTING CURL FOR https://www.guideline.gov/summaries/summary/51260/acr-appropriateness-criteria--first-trimester-vaginal-bleeding
+* About to connect() to www.guideline.gov port 443 (#0)
+*   Trying 52.179.8.212... connected
+* Connected to www.guideline.gov (52.179.8.212) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+* Server certificate:
+* 	subject: CN=guideline.gov,OU=gov,O=Agency for Healthcare Research & Quality,L=Rockville,ST=Maryland,C=US
+* 	start date: Apr 12 00:00:00 2018 GMT
+* 	expire date: Jan 28 12:00:00 2019 GMT
+* 	common name: guideline.gov
+* 	issuer: CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US
+> GET /summaries/summary/51260/acr-appropriateness-criteria--first-trimester-vaginal-bleeding HTTP/1.1
+> User-Agent: curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2
+> Host: www.guideline.gov
+> Accept: */*
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:35 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:36 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:37 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:38 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:39 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:40 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:41 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:42 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:43 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:44 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:45 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:46 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:47 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:48 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:49 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:50 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:51 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:52 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:53 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:54 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:55 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:56 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:57 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:58 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:59 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:00 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:24 --:--:--     0< HTTP/1.1 500 Internal Server Error
+< Cache-Control: private
+< Content-Length: 276
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ASP.NET_SessionId=rct2n4sdwwdngeleeyk3mgzv; path=/; HttpOnly
+< Set-Cookie: ASP.NET_SessionId=rct2n4sdwwdngeleeyk3mgzv; path=/; HttpOnly
+< Set-Cookie: NGC=RecentlyViewedContent=51260,51260; expires=Wed, 15-Aug-2018 17:59:37 GMT; path=/; HttpOnly
+< X-AspNetMvc-Version: 4.0
+< X-AspNet-Version: 4.0.30319
+< Request-Context: appId=cid-v1:deb297e9-23b8-4f6e-b376-44111ebc4951
+< X-Powered-By: ASP.NET
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'none';
+< Set-Cookie: ARRAffinity=538dcd6ad70f2a936442c3d633e1036eec6cd3cfb1870fe12b5fdc202dd29657;Path=/;HttpOnly;Domain=www.guideline.gov
+< Date: Mon, 16 Jul 2018 18:00:42 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< 
+{ [data not shown]
+138   276  138   276    0     0      3      0  0:01:32  0:01:24  0:00:08    63138   276  138   276    0     0      3      0  0:01:32  0:01:24  0:00:08    81* Connection #0 to host www.guideline.gov left intact
+
+* Closing connection #0
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <hgroup>
+        <h1>Error.</h1>
+        <h2>An error occurred while processing your request.</h2>
+    </hgroup>
+</body>
+</html>STARTING CURL FOR https://www.guideline.gov/summaries/summary/51261/acr-appropriateness-criteria--headache---child
+* About to connect() to www.guideline.gov port 443 (#0)
+*   Trying 52.179.8.212... connected
+* Connected to www.guideline.gov (52.179.8.212) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+* Server certificate:
+* 	subject: CN=guideline.gov,OU=gov,O=Agency for Healthcare Research & Quality,L=Rockville,ST=Maryland,C=US
+* 	start date: Apr 12 00:00:00 2018 GMT
+* 	expire date: Jan 28 12:00:00 2019 GMT
+* 	common name: guideline.gov
+* 	issuer: CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US
+> GET /summaries/summary/51261/acr-appropriateness-criteria--headache---child HTTP/1.1
+> User-Agent: curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2
+> Host: www.guideline.gov
+> Accept: */*
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:35 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:36 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:37 --:--:--     0< HTTP/1.1 500 Internal Server Error
+< Cache-Control: private
+< Content-Length: 276
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ASP.NET_SessionId=ydfhbpc5k2t2rd05rxhskiff; path=/; HttpOnly
+< Set-Cookie: ASP.NET_SessionId=ydfhbpc5k2t2rd05rxhskiff; path=/; HttpOnly
+< Set-Cookie: NGC=RecentlyViewedContent=51261,51261; expires=Wed, 15-Aug-2018 18:00:44 GMT; path=/; HttpOnly
+< X-AspNetMvc-Version: 4.0
+< X-AspNet-Version: 4.0.30319
+< Request-Context: appId=cid-v1:deb297e9-23b8-4f6e-b376-44111ebc4951
+< X-Powered-By: ASP.NET
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'none';
+< Set-Cookie: ARRAffinity=727c78e36b041a9f0b1aa395face9c885f9b740190eff26f632e7c93a04b301e;Path=/;HttpOnly;Domain=www.guideline.gov
+< Date: Mon, 16 Jul 2018 18:01:20 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< 
+{ [data not shown]
+138   276  138   276    0     0      7      0  0:00:39  0:00:37  0:00:02    62* Connection #0 to host www.guideline.gov left intact
+
+* Closing connection #0
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <hgroup>
+        <h1>Error.</h1>
+        <h2>An error occurred while processing your request.</h2>
+    </hgroup>
+</body>
+</html>STARTING CURL FOR https://www.guideline.gov/summaries/summary/51262/acr-appropriateness-criteria--orbits-vision-and-visual-loss
+* About to connect() to www.guideline.gov port 443 (#0)
+*   Trying 52.179.8.212... connected
+* Connected to www.guideline.gov (52.179.8.212) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+* Server certificate:
+* 	subject: CN=guideline.gov,OU=gov,O=Agency for Healthcare Research & Quality,L=Rockville,ST=Maryland,C=US
+* 	start date: Apr 12 00:00:00 2018 GMT
+* 	expire date: Jan 28 12:00:00 2019 GMT
+* 	common name: guideline.gov
+* 	issuer: CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US
+> GET /summaries/summary/51262/acr-appropriateness-criteria--orbits-vision-and-visual-loss HTTP/1.1
+> User-Agent: curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2
+> Host: www.guideline.gov
+> Accept: */*
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:35 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:36 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:37 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:38 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:39 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:40 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:41 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:42 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:43 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:44 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:45 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:46 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:47 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:48 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:49 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:50 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:51 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:52 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:53 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:54 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:55 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:56 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:57 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:58 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:59 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:00 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:28 --:--:--     0< HTTP/1.1 500 Internal Server Error
+< Cache-Control: private
+< Content-Length: 276
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ASP.NET_SessionId=eib4ghwxzcgb2zlbi1butbq3; path=/; HttpOnly
+< Set-Cookie: ASP.NET_SessionId=eib4ghwxzcgb2zlbi1butbq3; path=/; HttpOnly
+< Set-Cookie: NGC=RecentlyViewedContent=51262,51262; expires=Wed, 15-Aug-2018 18:01:36 GMT; path=/; HttpOnly
+< X-AspNetMvc-Version: 4.0
+< X-AspNet-Version: 4.0.30319
+< Request-Context: appId=cid-v1:deb297e9-23b8-4f6e-b376-44111ebc4951
+< X-Powered-By: ASP.NET
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'none';
+< Set-Cookie: ARRAffinity=538dcd6ad70f2a936442c3d633e1036eec6cd3cfb1870fe12b5fdc202dd29657;Path=/;HttpOnly;Domain=www.guideline.gov
+< Date: Mon, 16 Jul 2018 18:02:48 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< 
+{ [data not shown]
+138   276  138   276    0     0      3      0  0:01:32  0:01:28  0:00:04    66138   276  138   276    0     0      3      0  0:01:32  0:01:28  0:00:04    87* Connection #0 to host www.guideline.gov left intact
+
+* Closing connection #0
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <hgroup>
+        <h1>Error.</h1>
+        <h2>An error occurred while processing your request.</h2>
+    </hgroup>
+</body>
+</html>STARTING CURL FOR https://www.guideline.gov/summaries/summary/51263/acr-appropriateness-criteria--pretreatment-staging-of-muscleinvasive-bladder-cancer
+* About to connect() to www.guideline.gov port 443 (#0)
+*   Trying 52.179.8.212... connected
+* Connected to www.guideline.gov (52.179.8.212) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+* Server certificate:
+* 	subject: CN=guideline.gov,OU=gov,O=Agency for Healthcare Research & Quality,L=Rockville,ST=Maryland,C=US
+* 	start date: Apr 12 00:00:00 2018 GMT
+* 	expire date: Jan 28 12:00:00 2019 GMT
+* 	common name: guideline.gov
+* 	issuer: CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US
+> GET /summaries/summary/51263/acr-appropriateness-criteria--pretreatment-staging-of-muscleinvasive-bladder-cancer HTTP/1.1
+> User-Agent: curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2
+> Host: www.guideline.gov
+> Accept: */*
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:35 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:36 --:--:--     0< HTTP/1.1 500 Internal Server Error
+< Cache-Control: private
+< Content-Length: 276
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ASP.NET_SessionId=wu5ysw2ip0hq2i0jt3jslleh; path=/; HttpOnly
+< Set-Cookie: ASP.NET_SessionId=wu5ysw2ip0hq2i0jt3jslleh; path=/; HttpOnly
+< Set-Cookie: NGC=RecentlyViewedContent=51263,51263; expires=Wed, 15-Aug-2018 18:02:49 GMT; path=/; HttpOnly
+< X-AspNetMvc-Version: 4.0
+< X-AspNet-Version: 4.0.30319
+< Request-Context: appId=cid-v1:deb297e9-23b8-4f6e-b376-44111ebc4951
+< X-Powered-By: ASP.NET
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'none';
+< Set-Cookie: ARRAffinity=da7985c62a729352f6a2745ce1af0df3e542bf945932bc766fb35d7c851d7626;Path=/;HttpOnly;Domain=www.guideline.gov
+< Date: Mon, 16 Jul 2018 18:03:24 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< 
+{ [data not shown]
+138   276  138   276    0     0      7      0  0:00:39  0:00:36  0:00:03    68* Connection #0 to host www.guideline.gov left intact
+
+* Closing connection #0
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <hgroup>
+        <h1>Error.</h1>
+        <h2>An error occurred while processing your request.</h2>
+    </hgroup>
+</body>
+</html>STARTING CURL FOR https://www.guideline.gov/summaries/summary/51264/acr-appropriateness-criteria--posttreatment-followup-of-prostate-cancer
+* About to connect() to www.guideline.gov port 443 (#0)
+*   Trying 52.179.8.212... connected
+* Connected to www.guideline.gov (52.179.8.212) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+* Server certificate:
+* 	subject: CN=guideline.gov,OU=gov,O=Agency for Healthcare Research & Quality,L=Rockville,ST=Maryland,C=US
+* 	start date: Apr 12 00:00:00 2018 GMT
+* 	expire date: Jan 28 12:00:00 2019 GMT
+* 	common name: guideline.gov
+* 	issuer: CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US
+> GET /summaries/summary/51264/acr-appropriateness-criteria--posttreatment-followup-of-prostate-cancer HTTP/1.1
+> User-Agent: curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2
+> Host: www.guideline.gov
+> Accept: */*
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:35 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:36 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:37 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:38 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:39 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:40 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:41 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:42 --:--:--     0< HTTP/1.1 500 Internal Server Error
+< Cache-Control: private
+< Content-Length: 276
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ASP.NET_SessionId=omrs2jap25tlmwgtqiow4o1q; path=/; HttpOnly
+< Set-Cookie: ASP.NET_SessionId=omrs2jap25tlmwgtqiow4o1q; path=/; HttpOnly
+< Set-Cookie: NGC=RecentlyViewedContent=51264,51264; expires=Wed, 15-Aug-2018 18:03:29 GMT; path=/; HttpOnly
+< X-AspNetMvc-Version: 4.0
+< X-AspNet-Version: 4.0.30319
+< Request-Context: appId=cid-v1:deb297e9-23b8-4f6e-b376-44111ebc4951
+< X-Powered-By: ASP.NET
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'none';
+< Set-Cookie: ARRAffinity=727c78e36b041a9f0b1aa395face9c885f9b740190eff26f632e7c93a04b301e;Path=/;HttpOnly;Domain=www.guideline.gov
+< Date: Mon, 16 Jul 2018 18:04:07 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< 
+{ [data not shown]
+138   276  138   276    0     0      6      0  0:00:46  0:00:42  0:00:04    65* Connection #0 to host www.guideline.gov left intact
+
+* Closing connection #0
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <hgroup>
+        <h1>Error.</h1>
+        <h2>An error occurred while processing your request.</h2>
+    </hgroup>
+</body>
+</html>STARTING CURL FOR https://www.guideline.gov/summaries/summary/51265/acr-appropriateness-criteria--softtissue-masses
+* About to connect() to www.guideline.gov port 443 (#0)
+*   Trying 52.179.8.212... connected
+* Connected to www.guideline.gov (52.179.8.212) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+* Server certificate:
+* 	subject: CN=guideline.gov,OU=gov,O=Agency for Healthcare Research & Quality,L=Rockville,ST=Maryland,C=US
+* 	start date: Apr 12 00:00:00 2018 GMT
+* 	expire date: Jan 28 12:00:00 2019 GMT
+* 	common name: guideline.gov
+* 	issuer: CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US
+> GET /summaries/summary/51265/acr-appropriateness-criteria--softtissue-masses HTTP/1.1
+> User-Agent: curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2
+> Host: www.guideline.gov
+> Accept: */*
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:35 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:36 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:37 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:38 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:39 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:40 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:41 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:42 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:43 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:44 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:45 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:46 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:47 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:48 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:49 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:50 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:51 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:52 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:53 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:54 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:55 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:56 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:57 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:58 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:59 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:00 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:07 --:--:--     0< HTTP/1.1 500 Internal Server Error
+< Cache-Control: private
+< Content-Length: 276
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ASP.NET_SessionId=da5aygobmnimmjd2kffnf5ue; path=/; HttpOnly
+< Set-Cookie: ASP.NET_SessionId=da5aygobmnimmjd2kffnf5ue; path=/; HttpOnly
+< Set-Cookie: NGC=RecentlyViewedContent=51265,51265; expires=Wed, 15-Aug-2018 18:04:15 GMT; path=/; HttpOnly
+< X-AspNetMvc-Version: 4.0
+< X-AspNet-Version: 4.0.30319
+< Request-Context: appId=cid-v1:deb297e9-23b8-4f6e-b376-44111ebc4951
+< X-Powered-By: ASP.NET
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'none';
+< Set-Cookie: ARRAffinity=538dcd6ad70f2a936442c3d633e1036eec6cd3cfb1870fe12b5fdc202dd29657;Path=/;HttpOnly;Domain=www.guideline.gov
+< Date: Mon, 16 Jul 2018 18:05:15 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< 
+{ [data not shown]
+138   276  138   276    0     0      4      0  0:01:09  0:01:07  0:00:02    57138   276  138   276    0     0      4      0  0:01:09  0:01:07  0:00:02    73* Connection #0 to host www.guideline.gov left intact
+
+* Closing connection #0
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <hgroup>
+        <h1>Error.</h1>
+        <h2>An error occurred while processing your request.</h2>
+    </hgroup>
+</body>
+</html>STARTING CURL FOR https://www.guideline.gov/summaries/summary/51266/acr-appropriateness-criteria--radiologic-management-of-uterine-leiomyomas
+* About to connect() to www.guideline.gov port 443 (#0)
+*   Trying 52.179.8.212... connected
+* Connected to www.guideline.gov (52.179.8.212) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+* Server certificate:
+* 	subject: CN=guideline.gov,OU=gov,O=Agency for Healthcare Research & Quality,L=Rockville,ST=Maryland,C=US
+* 	start date: Apr 12 00:00:00 2018 GMT
+* 	expire date: Jan 28 12:00:00 2019 GMT
+* 	common name: guideline.gov
+* 	issuer: CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US
+> GET /summaries/summary/51266/acr-appropriateness-criteria--radiologic-management-of-uterine-leiomyomas HTTP/1.1
+> User-Agent: curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2
+> Host: www.guideline.gov
+> Accept: */*
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:35 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:36 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:37 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:38 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:39 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:40 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:41 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:42 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:43 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:44 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:45 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:46 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:47 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:48 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:49 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:50 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:51 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:52 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:53 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:54 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:55 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:56 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:57 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:58 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:59 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:00 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:04 --:--:--     0< HTTP/1.1 500 Internal Server Error
+< Cache-Control: private
+< Content-Length: 276
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ASP.NET_SessionId=wqfh2ucisov3fy54xo3s0uhi; path=/; HttpOnly
+< Set-Cookie: ASP.NET_SessionId=wqfh2ucisov3fy54xo3s0uhi; path=/; HttpOnly
+< Set-Cookie: NGC=RecentlyViewedContent=51266,51266; expires=Wed, 15-Aug-2018 18:05:22 GMT; path=/; HttpOnly
+< X-AspNetMvc-Version: 4.0
+< X-AspNet-Version: 4.0.30319
+< Request-Context: appId=cid-v1:deb297e9-23b8-4f6e-b376-44111ebc4951
+< X-Powered-By: ASP.NET
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'none';
+< Set-Cookie: ARRAffinity=538dcd6ad70f2a936442c3d633e1036eec6cd3cfb1870fe12b5fdc202dd29657;Path=/;HttpOnly;Domain=www.guideline.gov
+< Date: Mon, 16 Jul 2018 18:06:19 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< 
+{ [data not shown]
+138   276  138   276    0     0      4      0  0:01:09  0:01:04  0:00:05    60138   276  138   276    0     0      4      0  0:01:09  0:01:04  0:00:05    78* Connection #0 to host www.guideline.gov left intact
+
+* Closing connection #0
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <hgroup>
+        <h1>Error.</h1>
+        <h2>An error occurred while processing your request.</h2>
+    </hgroup>
+</body>
+</html>STARTING CURL FOR https://www.guideline.gov/summaries/summary/51283/practice-guidelines-for-moderate-procedural-sedation-and-analgesia-2018-a-report-by-the-american-society-of-anesthesiologists-task-force-on-moderate-procedural-sedation-and-analgesia-the-american-association-of-oral-and-maxillofacial-surgeons-american-college-
+* About to connect() to www.guideline.gov port 443 (#0)
+*   Trying 52.179.8.212... connected
+* Connected to www.guideline.gov (52.179.8.212) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+* Server certificate:
+* 	subject: CN=guideline.gov,OU=gov,O=Agency for Healthcare Research & Quality,L=Rockville,ST=Maryland,C=US
+* 	start date: Apr 12 00:00:00 2018 GMT
+* 	expire date: Jan 28 12:00:00 2019 GMT
+* 	common name: guideline.gov
+* 	issuer: CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US
+> GET /summaries/summary/51283/practice-guidelines-for-moderate-procedural-sedation-and-analgesia-2018-a-report-by-the-american-society-of-anesthesiologists-task-force-on-moderate-procedural-sedation-and-analgesia-the-american-association-of-oral-and-maxillofacial-surgeons-american-college- HTTP/1.1
+> User-Agent: curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2
+> Host: www.guideline.gov
+> Accept: */*
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:35 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:36 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:37 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:38 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:39 --:--:--     0< HTTP/1.1 500 Internal Server Error
+< Cache-Control: private
+< Content-Length: 276
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ASP.NET_SessionId=xpfv3j3yf34tk5y2b0mumvms; path=/; HttpOnly
+< Set-Cookie: ASP.NET_SessionId=xpfv3j3yf34tk5y2b0mumvms; path=/; HttpOnly
+< Set-Cookie: NGC=RecentlyViewedContent=51283,51283; expires=Wed, 15-Aug-2018 18:06:21 GMT; path=/; HttpOnly
+< X-AspNetMvc-Version: 4.0
+< X-AspNet-Version: 4.0.30319
+< Request-Context: appId=cid-v1:deb297e9-23b8-4f6e-b376-44111ebc4951
+< X-Powered-By: ASP.NET
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'none';
+< Set-Cookie: ARRAffinity=da7985c62a729352f6a2745ce1af0df3e542bf945932bc766fb35d7c851d7626;Path=/;HttpOnly;Domain=www.guideline.gov
+< Date: Mon, 16 Jul 2018 18:06:59 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< 
+{ [data not shown]
+138   276  138   276    0     0      7      0  0:00:39  0:00:39 --:--:--    67* Connection #0 to host www.guideline.gov left intact
+
+* Closing connection #0
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <hgroup>
+        <h1>Error.</h1>
+        <h2>An error occurred while processing your request.</h2>
+    </hgroup>
+</body>
+</html>STARTING CURL FOR https://www.guideline.gov/summaries/summary/51286/occupational-therapy-practice-guidelines-for-adults-with-arthritis-and-other-rheumatic-conditions
+* About to connect() to www.guideline.gov port 443 (#0)
+*   Trying 52.179.8.212... connected
+* Connected to www.guideline.gov (52.179.8.212) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+* Server certificate:
+* 	subject: CN=guideline.gov,OU=gov,O=Agency for Healthcare Research & Quality,L=Rockville,ST=Maryland,C=US
+* 	start date: Apr 12 00:00:00 2018 GMT
+* 	expire date: Jan 28 12:00:00 2019 GMT
+* 	common name: guideline.gov
+* 	issuer: CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US
+> GET /summaries/summary/51286/occupational-therapy-practice-guidelines-for-adults-with-arthritis-and-other-rheumatic-conditions HTTP/1.1
+> User-Agent: curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2
+> Host: www.guideline.gov
+> Accept: */*
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:35 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:36 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:37 --:--:--     0< HTTP/1.1 500 Internal Server Error
+< Cache-Control: private
+< Content-Length: 276
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ASP.NET_SessionId=vgiwqz145bt0gd4o4n34uqko; path=/; HttpOnly
+< Set-Cookie: ASP.NET_SessionId=vgiwqz145bt0gd4o4n34uqko; path=/; HttpOnly
+< Set-Cookie: NGC=RecentlyViewedContent=51286,51286; expires=Wed, 15-Aug-2018 18:07:01 GMT; path=/; HttpOnly
+< X-AspNetMvc-Version: 4.0
+< X-AspNet-Version: 4.0.30319
+< Request-Context: appId=cid-v1:deb297e9-23b8-4f6e-b376-44111ebc4951
+< X-Powered-By: ASP.NET
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'none';
+< Set-Cookie: ARRAffinity=da7985c62a729352f6a2745ce1af0df3e542bf945932bc766fb35d7c851d7626;Path=/;HttpOnly;Domain=www.guideline.gov
+< Date: Mon, 16 Jul 2018 18:07:36 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< 
+{ [data not shown]
+138   276  138   276    0     0      7      0  0:00:39  0:00:37  0:00:02    67* Connection #0 to host www.guideline.gov left intact
+
+* Closing connection #0
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <hgroup>
+        <h1>Error.</h1>
+        <h2>An error occurred while processing your request.</h2>
+    </hgroup>
+</body>
+</html>STARTING CURL FOR https://www.guideline.gov/summaries/summary/51287/occupational-therapy-practice-guidelines-for-adults-with-musculoskeletal-conditions
+* About to connect() to www.guideline.gov port 443 (#0)
+*   Trying 52.179.8.212... connected
+* Connected to www.guideline.gov (52.179.8.212) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+* Server certificate:
+* 	subject: CN=guideline.gov,OU=gov,O=Agency for Healthcare Research & Quality,L=Rockville,ST=Maryland,C=US
+* 	start date: Apr 12 00:00:00 2018 GMT
+* 	expire date: Jan 28 12:00:00 2019 GMT
+* 	common name: guideline.gov
+* 	issuer: CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US
+> GET /summaries/summary/51287/occupational-therapy-practice-guidelines-for-adults-with-musculoskeletal-conditions HTTP/1.1
+> User-Agent: curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2
+> Host: www.guideline.gov
+> Accept: */*
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:35 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:36 --:--:--     0< HTTP/1.1 500 Internal Server Error
+< Cache-Control: private
+< Content-Length: 276
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ASP.NET_SessionId=huyue40fbcujfgyy5pfirkxy; path=/; HttpOnly
+< Set-Cookie: ASP.NET_SessionId=huyue40fbcujfgyy5pfirkxy; path=/; HttpOnly
+< Set-Cookie: NGC=RecentlyViewedContent=51287,51287; expires=Wed, 15-Aug-2018 18:07:37 GMT; path=/; HttpOnly
+< X-AspNetMvc-Version: 4.0
+< X-AspNet-Version: 4.0.30319
+< Request-Context: appId=cid-v1:deb297e9-23b8-4f6e-b376-44111ebc4951
+< X-Powered-By: ASP.NET
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'none';
+< Set-Cookie: ARRAffinity=538dcd6ad70f2a936442c3d633e1036eec6cd3cfb1870fe12b5fdc202dd29657;Path=/;HttpOnly;Domain=www.guideline.gov
+< Date: Mon, 16 Jul 2018 18:08:12 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< 
+{ [data not shown]
+138   276  138   276    0     0      7      0  0:00:39  0:00:36  0:00:03    65* Connection #0 to host www.guideline.gov left intact
+
+* Closing connection #0
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <hgroup>
+        <h1>Error.</h1>
+        <h2>An error occurred while processing your request.</h2>
+    </hgroup>
+</body>
+</html>STARTING CURL FOR https://www.guideline.gov/summaries/summary/51294/clinical-practice-guideline-on-systemic-lupus-erythematosus
+* About to connect() to www.guideline.gov port 443 (#0)
+*   Trying 52.179.8.212... connected
+* Connected to www.guideline.gov (52.179.8.212) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+* Server certificate:
+* 	subject: CN=guideline.gov,OU=gov,O=Agency for Healthcare Research & Quality,L=Rockville,ST=Maryland,C=US
+* 	start date: Apr 12 00:00:00 2018 GMT
+* 	expire date: Jan 28 12:00:00 2019 GMT
+* 	common name: guideline.gov
+* 	issuer: CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US
+> GET /summaries/summary/51294/clinical-practice-guideline-on-systemic-lupus-erythematosus HTTP/1.1
+> User-Agent: curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2
+> Host: www.guideline.gov
+> Accept: */*
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:35 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:36 --:--:--     0< HTTP/1.1 500 Internal Server Error
+< Cache-Control: private
+< Content-Length: 276
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ASP.NET_SessionId=pdab1nqacndpharz4gifxd0m; path=/; HttpOnly
+< Set-Cookie: ASP.NET_SessionId=pdab1nqacndpharz4gifxd0m; path=/; HttpOnly
+< Set-Cookie: NGC=RecentlyViewedContent=51294,51294; expires=Wed, 15-Aug-2018 18:08:14 GMT; path=/; HttpOnly
+< X-AspNetMvc-Version: 4.0
+< X-AspNet-Version: 4.0.30319
+< Request-Context: appId=cid-v1:deb297e9-23b8-4f6e-b376-44111ebc4951
+< X-Powered-By: ASP.NET
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'none';
+< Set-Cookie: ARRAffinity=da7985c62a729352f6a2745ce1af0df3e542bf945932bc766fb35d7c851d7626;Path=/;HttpOnly;Domain=www.guideline.gov
+< Date: Mon, 16 Jul 2018 18:08:50 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< 
+{ [data not shown]
+138   276  138   276    0     0      7      0  0:00:39  0:00:36  0:00:03    61* Connection #0 to host www.guideline.gov left intact
+
+* Closing connection #0
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <hgroup>
+        <h1>Error.</h1>
+        <h2>An error occurred while processing your request.</h2>
+    </hgroup>
+</body>
+</html>STARTING CURL FOR https://www.guideline.gov/summaries/summary/51298/clinical-pharmacogenetics-implementation-consortium-cpic-guideline-for-dihydropyrimidine-dehydrogenase-genotype-and-fluoropyrimidine-dosing-2017-update
+* About to connect() to www.guideline.gov port 443 (#0)
+*   Trying 52.179.8.212... connected
+* Connected to www.guideline.gov (52.179.8.212) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+* Server certificate:
+* 	subject: CN=guideline.gov,OU=gov,O=Agency for Healthcare Research & Quality,L=Rockville,ST=Maryland,C=US
+* 	start date: Apr 12 00:00:00 2018 GMT
+* 	expire date: Jan 28 12:00:00 2019 GMT
+* 	common name: guideline.gov
+* 	issuer: CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US
+> GET /summaries/summary/51298/clinical-pharmacogenetics-implementation-consortium-cpic-guideline-for-dihydropyrimidine-dehydrogenase-genotype-and-fluoropyrimidine-dosing-2017-update HTTP/1.1
+> User-Agent: curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2
+> Host: www.guideline.gov
+> Accept: */*
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:32 --:--:--     0< HTTP/1.1 500 Internal Server Error
+< Cache-Control: private
+< Content-Length: 276
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ASP.NET_SessionId=p32kxpcdkrzweiy3jxynshyp; path=/; HttpOnly
+< Set-Cookie: ASP.NET_SessionId=p32kxpcdkrzweiy3jxynshyp; path=/; HttpOnly
+< Set-Cookie: NGC=RecentlyViewedContent=51298,51298; expires=Wed, 15-Aug-2018 18:08:51 GMT; path=/; HttpOnly
+< X-AspNetMvc-Version: 4.0
+< X-AspNet-Version: 4.0.30319
+< Request-Context: appId=cid-v1:deb297e9-23b8-4f6e-b376-44111ebc4951
+< X-Powered-By: ASP.NET
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'none';
+< Set-Cookie: ARRAffinity=b16eb828fcc6b7a4a95321fcce037c392868c01a8f3f7eee1a24b336abc57d53;Path=/;HttpOnly;Domain=www.guideline.gov
+< Date: Mon, 16 Jul 2018 18:09:22 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< 
+{ [data not shown]
+138   276  138   276    0     0      8      0  0:00:34  0:00:32  0:00:02    60* Connection #0 to host www.guideline.gov left intact
+
+* Closing connection #0
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <hgroup>
+        <h1>Error.</h1>
+        <h2>An error occurred while processing your request.</h2>
+    </hgroup>
+</body>
+</html>STARTING CURL FOR https://www.guideline.gov/summaries/summary/51299/american-academy-of-orthopaedic-surgeons-appropriate-use-criteria-for-the-management-of-osteoarthritis-of-the-hip
+* About to connect() to www.guideline.gov port 443 (#0)
+*   Trying 52.179.8.212... connected
+* Connected to www.guideline.gov (52.179.8.212) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+* Server certificate:
+* 	subject: CN=guideline.gov,OU=gov,O=Agency for Healthcare Research & Quality,L=Rockville,ST=Maryland,C=US
+* 	start date: Apr 12 00:00:00 2018 GMT
+* 	expire date: Jan 28 12:00:00 2019 GMT
+* 	common name: guideline.gov
+* 	issuer: CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US
+> GET /summaries/summary/51299/american-academy-of-orthopaedic-surgeons-appropriate-use-criteria-for-the-management-of-osteoarthritis-of-the-hip HTTP/1.1
+> User-Agent: curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2
+> Host: www.guideline.gov
+> Accept: */*
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:35 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:36 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:37 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:38 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:39 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:40 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:41 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:42 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:43 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:44 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:45 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:46 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:47 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:48 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:49 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:50 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:51 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:52 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:53 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:54 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:55 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:56 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:57 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:58 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:59 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:00 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:26 --:--:--     0< HTTP/1.1 500 Internal Server Error
+< Cache-Control: private
+< Content-Length: 276
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ASP.NET_SessionId=qmg4awzl2zoi5cmcearycy42; path=/; HttpOnly
+< Set-Cookie: ASP.NET_SessionId=qmg4awzl2zoi5cmcearycy42; path=/; HttpOnly
+< Set-Cookie: NGC=RecentlyViewedContent=51299,51299; expires=Wed, 15-Aug-2018 18:09:35 GMT; path=/; HttpOnly
+< X-AspNetMvc-Version: 4.0
+< X-AspNet-Version: 4.0.30319
+< Request-Context: appId=cid-v1:deb297e9-23b8-4f6e-b376-44111ebc4951
+< X-Powered-By: ASP.NET
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'none';
+< Set-Cookie: ARRAffinity=538dcd6ad70f2a936442c3d633e1036eec6cd3cfb1870fe12b5fdc202dd29657;Path=/;HttpOnly;Domain=www.guideline.gov
+< Date: Mon, 16 Jul 2018 18:10:48 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< 
+{ [data not shown]
+138   276  138   276    0     0      3      0  0:01:32  0:01:26  0:00:06    67* Connection #0 to host www.guideline.gov left intact
+
+* Closing connection #0
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <hgroup>
+        <h1>Error.</h1>
+        <h2>An error occurred while processing your request.</h2>
+    </hgroup>
+</body>
+</html>STARTING CURL FOR https://www.guideline.gov/summaries/summary/51326/vadod-clinical-practice-guideline-for-the-management-of-pregnancy
+* About to connect() to www.guideline.gov port 443 (#0)
+*   Trying 52.179.8.212... connected
+* Connected to www.guideline.gov (52.179.8.212) port 443 (#0)
+* Initializing NSS with certpath: sql:/etc/pki/nssdb
+*   CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* SSL connection using TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+* Server certificate:
+* 	subject: CN=guideline.gov,OU=gov,O=Agency for Healthcare Research & Quality,L=Rockville,ST=Maryland,C=US
+* 	start date: Apr 12 00:00:00 2018 GMT
+* 	expire date: Jan 28 12:00:00 2019 GMT
+* 	common name: guideline.gov
+* 	issuer: CN=DigiCert SHA2 Secure Server CA,O=DigiCert Inc,C=US
+> GET /summaries/summary/51326/vadod-clinical-practice-guideline-for-the-management-of-pregnancy HTTP/1.1
+> User-Agent: curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2
+> Host: www.guideline.gov
+> Accept: */*
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:35 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:36 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:37 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:38 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:39 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:40 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:41 --:--:--     0< HTTP/1.1 500 Internal Server Error
+< Cache-Control: private
+< Content-Length: 276
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/10.0
+< Set-Cookie: ASP.NET_SessionId=vga3rh0mip2w41xvdntqy504; path=/; HttpOnly
+< Set-Cookie: ASP.NET_SessionId=vga3rh0mip2w41xvdntqy504; path=/; HttpOnly
+< Set-Cookie: NGC=RecentlyViewedContent=51326,51326; expires=Wed, 15-Aug-2018 18:10:53 GMT; path=/; HttpOnly
+< X-AspNetMvc-Version: 4.0
+< X-AspNet-Version: 4.0.30319
+< Request-Context: appId=cid-v1:deb297e9-23b8-4f6e-b376-44111ebc4951
+< X-Powered-By: ASP.NET
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'none';
+< Set-Cookie: ARRAffinity=b16eb828fcc6b7a4a95321fcce037c392868c01a8f3f7eee1a24b336abc57d53;Path=/;HttpOnly;Domain=www.guideline.gov
+< Date: Mon, 16 Jul 2018 18:11:29 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains;
+< 
+{ [data not shown]
+138   276  138   276    0     0      6      0  0:00:46  0:00:41  0:00:05    66* Connection #0 to host www.guideline.gov left intact
+
+* Closing connection #0
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Error</title>
+</head>
+<body>
+    <hgroup>
+        <h1>Error.</h1>
+        <h2>An error occurred while processing your request.</h2>
+    </hgroup>
+</body>
+</html>
